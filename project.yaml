@@ -1,0 +1,79 @@
+org: whole-tale
+
+repos:
+  - whole-tale
+  - wt-design-docs
+  - wt_home_dirs
+  - girder_wholetale
+  - terraform_deployment
+  - backup
+  - dashboard
+  - girderfs
+  - gwvolman
+  - wt_sils
+  - girder_wt_data_manager
+
+labels:
+  - name: pep
+    meta: True
+    color: fbca04
+    subcategories:
+      - name: data-ingest
+      - name: frontends
+      - name: storage
+      - name: publishing
+      - name: identity
+      - name: events
+      - name: other
+  - name: close
+    meta: True
+    color: 0e8a16
+    subcategories:
+      - name: reason
+  - name: area
+    meta: True
+    color: 0052cc
+    subcategories:
+      - name: authentication
+      - name: tale-creation
+      - name: instance-spawning
+      - name: image-creation
+      - name: registry
+      - name: job-system
+      - name: event-bus
+      - name: directory-home
+      - name: directory-workspace
+      - name: directory-readonly
+      - name: data-registration
+      - name: publishing-cycle
+      - name: ui-ux
+      - name: globus-integration
+      - name: dataone-integration
+      - name: irods-integration
+      - name: infrastructure
+      - name: sharing
+      - name: monitoring
+  - name: kind
+    color: d4c5f9
+    meta: True
+    subcategories:
+      - name: bug
+      - name: documentation
+        color: bfd4f2
+        subcategories:
+          - name: user
+          - name: dev
+      - name: design
+      - name: support
+      - name: task
+      - name: feature
+      - name: enhancement
+      - name: epic
+  - name: priority
+    color: d93f0b
+    meta: True
+    subcategories:
+      - name: low
+      - name: normal
+      - name: critical
+      - name: blocker
